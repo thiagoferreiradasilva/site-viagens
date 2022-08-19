@@ -1,0 +1,67 @@
+*{
+  
+}
+
+header{
+  
+  background: no-repeat center/cover url('../imagens/ImgCabe0.jpeg');
+  height: calc(100vh - 50px);
+}
+
+header ul {
+  list-style: none;
+  /* margin: 0px;
+  padding: 22px; */
+  text-align: right;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a:link,
+header ul li a:visited {
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+header img{
+  width: 250px;
+}
+
+a{
+  padding: 20px;
+}
+a:hover{
+  color: black;
+  font-weight: bold;
+  background: #FEFEFE;
+  border-radius: 15px;
+  transition: all 0.7s;
+}
+
+
+.container{
+  width: 1300px;
+  height: 150vh;
+  margin: auto;
+  border: 1px solid blue;
+}
+
+.containerCabeçalho{
+  width: 80%;
+  height: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  clear: both;
+  border: 5px solid red;
+  
+  
+}
+
+/* 
+section img{
+  width: 100%;
+  height: 100px;
+}  */

@@ -1,0 +1,106 @@
+/* FONTES */
+@font-face{
+    font-family: fonteNomeAP;
+    src: url(../Fontes/Sacramento-Regular.ttf);
+}
+
+@font-face{
+    font-family: fonteLogo;
+    src: url(../Fontes/Pompiere-Regular.ttf);
+}
+
+* {
+    /* border: 0px solid black; */
+}
+
+header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 22px;
+    text-align: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a:link,
+header ul li a:visited {
+    text-decoration: none;
+}
+
+header img{
+    width: 300px;
+    display: block;
+    margin-right: auto;
+}
+
+
+/* 
+.imgCabecalho {
+    background-image: url(../imagens/topo.jpg);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* header h1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+} */
+/* 
+.boxProduto {
+    background:  #F5AD01;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    font-size: 20px;
+    font-weight: bold;
+} */
+/* 
+.boxProduto:hover{
+    transform: rotateZ(360deg);
+    background: #030915;
+    color: white;
+}
+
+article h2{
+    font-weight: bold;
+}
+
+article img{
+    width: 550px;
+    border-radius: 10px;
+}
+
+.artigo2{
+    background-color: #d3d3d3
+}
+
+.imagensProdutos{
+    width: 300px;
+}
+
+.colorHeader{
+     background-color: #07B0CB;  
+}*/
+
+.container{
+    width: 1000px;
+    margin: auto;
+    border: 3px solid blue;
+}
+
+a{
+    padding: 20px;
+}
+a:hover{
+    color: white;
+}
